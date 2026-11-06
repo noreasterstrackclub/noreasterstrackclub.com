@@ -25,38 +25,42 @@
   <main>
     <section class="wrap section narrow">
       <h1>Contact Us</h1>
-      <p>
+
+      <p class="lead">
         Interested in joining Nor’easters or have a question?
         Send us a message.
       </p>
 
       <form
         action="https://formspree.io/f/meaadyzg"
-        method="POST"
-        class="contact-form">
+        method="POST">
 
-        <label for="name">Name</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          required>
+        <label class="field">
+          Name
+          <input
+            type="text"
+            name="name"
+            required>
+        </label>
 
-        <label for="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          required>
+        <label class="field">
+          Email
+          <input
+            type="email"
+            name="email"
+            required>
+        </label>
 
-        <label for="message">Message</label>
-        <textarea
-          id="message"
-          name="message"
-          rows="6"
-          required></textarea>
+        <label class="field">
+          Message
+          <textarea
+            name="message"
+            required></textarea>
+        </label>
 
-        <button type="submit">Send Message</button>
+        <button class="button" type="submit">
+          Send Message
+        </button>
       </form>
     </section>
   </main>
