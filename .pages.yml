@@ -1,0 +1,29 @@
+
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: roster
+    label: Team Roster
+    type: file
+    path: content/members.json
+    format: json
+    fields:
+      - name: members
+        label: Team Members
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: bio
+            label: Short Bio
+            type: text
+          - name: photo
+            label: Photo
+            type: image
+          - name: events
+            label: Events
+            type: string
