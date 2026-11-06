@@ -31,7 +31,7 @@ export async function onRequestGet({ request, env }) {
 
   if (!session || !env.MEMBERS_SESSION_SECRET) {
     return Response.redirect(
-      new URL("/team-login.html"", request.url),
+      new URL("/team-login.html", request.url),
       302
     );
   }
