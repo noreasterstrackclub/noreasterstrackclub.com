@@ -25,15 +25,7 @@ if (roster) {
     });
 }
 
-const form = document.querySelector('#contact-form');
 
-if (form) {
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-    document.querySelector('#form-status').textContent =
-      'This preview does not send messages yet. We will connect the form before launch.';
-  });
-}
 
 const homeHeading = document.querySelector('#home-heading');
 const homeIntroduction = document.querySelector('#home-introduction');
