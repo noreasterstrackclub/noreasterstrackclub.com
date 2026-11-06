@@ -90,8 +90,31 @@ export async function onRequestGet({ request, env }) {
           <h1>Member Resources</h1>
           <div class="member-panel">
             <h2>Welcome, Nor’easters!</h2>
-            <p>This is your members-only area.</p>
-            <p>Team store, handbook, and race schedule links will go here.</p>
+
+<p>Team information and resources for Nor’easters members.</p>
+
+<h2>Team Handbook</h2>
+<p>
+  <a href="https://docs.google.com/document/d/1b7s_mF5pr6_ImntqI3fLiJD3YvJ9lI0u7BlBj2PEtqc/edit?usp=sharing"
+     target="_blank" rel="noopener noreferrer">
+    View Team Handbook
+  </a>
+</p>
+
+<h2>Membership Waiver</h2>
+<p>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOmMPp34YXTnrn4fGoSqe0zth5PTv6g6OAhCN2Bplf4YRAwQ/viewform?usp=sharing"
+     target="_blank" rel="noopener noreferrer">
+    Complete Membership Waiver
+  </a>
+</p>
+
+<h2>Upcoming Races &amp; Events</h2>
+<p>Team calendar coming soon.</p>
+
+<h2>Team Store</h2>
+<p>Coming soon.</p>
+
           </div>
         </section>
       </main>
