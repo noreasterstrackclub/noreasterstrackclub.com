@@ -1,5 +1,23 @@
-[
-  {"name":"Shana Frank","bio":"Co-founder. Full profile coming soon.","photo":""},
-  {"name":"Mallory Walker","bio":"Co-founder. Full profile coming soon.","photo":""},
-  {"name":"Emily Oster","bio":"Full profile coming soon.","photo":""}
-]
+
+{
+  "members": [
+    {
+      "name": "Shana Frank",
+      "bio": "Co-founder. Full profile coming soon.",
+      "photo": "",
+      "events": ""
+    },
+    {
+      "name": "Mallory Walker",
+      "bio": "Co-founder. Full profile coming soon.",
+      "photo": "",
+      "events": ""
+    },
+    {
+      "name": "Emily Oster",
+      "bio": "Full profile coming soon.",
+      "photo": "",
+      "events": ""
+    }
+  ]
+}
