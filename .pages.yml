@@ -4,6 +4,20 @@ media:
   output: /assets
 
 content:
+
+  - name: homepage
+    label: Homepage
+    type: file
+    path: content/home.json
+    format: json
+    fields:
+      - name: heading
+        label: Heading
+        type: string
+      - name: introduction
+        label: Introduction
+        type: text
+
   - name: roster
     label: Team Roster
     type: file
