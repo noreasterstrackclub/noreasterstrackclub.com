@@ -4,3 +4,8 @@
 #about-description {
   max-width: 760px;
 }
+.header-logo {
+  width: 50px;
+  height: auto;
+  display: block;
+}
