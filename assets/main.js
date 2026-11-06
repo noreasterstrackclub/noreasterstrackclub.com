@@ -54,3 +54,53 @@ if (homeHeading && homeIntroduction) {
       console.error('Homepage content error:', error);
     });
 }
+
+const aboutHeading = document.querySelector('#about-heading');
+
+if (aboutHeading) {
+  fetch('content/about.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Could not load About Us content');
+      }
+      return response.json();
+    })
+    .then(data => {
+      document.querySelector('#about-heading').textContent =
+        data.heading || 'About Us';
+
+      document.querySelector('#about-introduction').textContent =
+        data.introduction || '';
+
+      // Display the club description as text
+      const description = document.querySelector('#about-description');
+      description.textContent =
+        typeof data.description === 'string'
+          ? data.description
+          : '';
+
+      // Display leadership profiles
+      const leadership = document.querySelector('#leadership');
+      leadership.replaceChildren();
+
+      (data.leadership || []).forEach(person => {
+        const card = document.createElement('div');
+        card.className = 'leader';
+
+        const name = document.createElement('strong');
+        name.textContent = person.name || '';
+
+        const position = document.createElement('span');
+        position.textContent = person.position || '';
+
+        const bio = document.createElement('p');
+        bio.textContent = person.bio || '';
+
+        card.append(name, position, bio);
+        leadership.appendChild(card);
+      });
+    })
+    .catch(error => {
+      console.error('About Us content error:', error);
+    });
+}
