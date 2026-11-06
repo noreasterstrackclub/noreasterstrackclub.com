@@ -9,3 +9,16 @@
   height: auto;
   display: block;
 }
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-logo {
+  width: 50px;
+  height: auto;
+  display: block;
+  flex-shrink: 0;
+}
