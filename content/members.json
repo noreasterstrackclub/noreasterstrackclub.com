@@ -1,23 +1,20 @@
-
 {
   "members": [
     {
-      "name": "Shana Frank",
-      "bio": "Co-founder. Full profile coming soon.",
-      "photo": "",
-      "events": ""
+      "name": "Arielle Chernin",
+      "bio": "Co-founder. Full profile coming soon."
     },
     {
-      "name": "Mallory Walker",
-      "bio": "Co-founder. Full profile coming soon.",
-      "photo": "",
-      "events": ""
+      "name": "Shana Frank",
+      "bio": "Co-founder. Full profile coming soon."
     },
     {
       "name": "Emily Oster",
-      "bio": "Full profile coming soon.",
-      "photo": "",
-      "events": ""
+      "bio": "Full profile coming soon."
+    },
+    {
+      "name": "Mallory Walker",
+      "bio": "Co-founder. Full profile coming soon."
     }
   ]
 }
