@@ -48,7 +48,7 @@ export async function onRequestPost({ request, env }) {
     headers: {
       "Location": "/members/",
       "Set-Cookie":
-        `ntc_session=${token}; Path=/members; ` +
+        `ntc_session=${token}; Path=/; ` +
         `HttpOnly; Secure; SameSite=Lax; Max-Age=604800`
     }
   });
