@@ -31,7 +31,7 @@ export async function onRequestGet({ request, env }) {
 
   if (!session || !env.MEMBERS_SESSION_SECRET) {
     return Response.redirect(
-      new URL("/members.html", request.url),
+      new URL("/team-login.html"", request.url),
       302
     );
   }
@@ -41,7 +41,7 @@ export async function onRequestGet({ request, env }) {
 
   if (!match) {
     return Response.redirect(
-      new URL("/members.html", request.url),
+      new URL("/team-login.html", request.url),
       302
     );
   }
@@ -58,7 +58,7 @@ export async function onRequestGet({ request, env }) {
     suppliedSignature !== expectedSignature
   ) {
     return Response.redirect(
-      new URL("/members.html", request.url),
+      new URL("/team-login.html", request.url),
       302
     );
   }
@@ -80,7 +80,7 @@ export async function onRequestGet({ request, env }) {
             <a href="/index.html">Home</a>
             <a href="/about.html">About Us</a>
             <a href="/roster.html">Roster</a>
-            <a href="/members.html" aria-current="page">Members</a>
+            <a href="/team-login.html" aria-current="page">Members</a>
             <a href="/contact.html">Contact</a>
           </nav>
         </div>
