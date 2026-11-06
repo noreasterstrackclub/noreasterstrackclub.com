@@ -5,6 +5,36 @@ media:
 
 content:
 
+  - name: about
+    label: About Us
+    type: file
+    path: content/about.json
+    format: json
+    fields:
+      - name: heading
+        label: Heading
+        type: string
+      - name: introduction
+        label: Introduction
+        type: text
+      - name: description
+        label: Club Description
+        type: rich-text
+      - name: leadership
+        label: Leadership
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: position
+            label: Position
+            type: string
+          - name: bio
+            label: Biography
+            type: text
+
   - name: homepage
     label: Homepage
     type: file
