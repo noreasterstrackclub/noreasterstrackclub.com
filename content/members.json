@@ -6,7 +6,8 @@
     },
     {
       "name": "Shana Frank",
-      "bio": "Full profile coming soon."
+      "bio": "Full profile coming soon.",
+      "photo": "/assets/Shana Frank 2-2.jpg"
     },
     {
       "name": "Jayne Hetherington",
@@ -18,7 +19,8 @@
     },
     {
       "name": "Emily Oster",
-      "bio": "Full profile coming soon."
+      "bio": "Full profile coming soon.",
+      "photo": "/assets/Emily Oster.jpg"
     },
     {
       "name": "Alice Paul",
@@ -42,7 +44,8 @@
     },
     {
       "name": "Mallory Walker",
-      "bio": "Full profile coming soon."
+      "bio": "Full profile coming soon.",
+      "photo": "/assets/Mallory Walker.jpg"
     }
   ]
 }
