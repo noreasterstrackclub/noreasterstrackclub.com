@@ -6,7 +6,7 @@
     },
     {
       "name": "Shana Frank",
-      "bio": "Favorite Distance: 1500\nPRs: 5:21.98 Mile, 38:33 10K\nFun Fact: Amateur backyard poultry enthusiast",
+      "bio": "Favorite Distance: 1500\nFun Fact: Amateur backyard poultry enthusiast",
       "photo": "/assets/Shana Frank 2-2.jpg"
     },
     {
@@ -15,17 +15,17 @@
     },
     {
       "name": "Janessa Juarez",
-      "bio": "Favorite Distance: 26.2 miles\nPR: 2:56 Marathon\nFun Fact: Twin mom!",
+      "bio": "Favorite Distance: 26.2 miles\nFun Fact: Twin mom!",
       "photo": "/assets/Janessa 1-1.jpg"
     },
     {
       "name": "Emily Oster",
-      "bio": "Favorite Distance: 10K\nPRs: 18:31 5K, 1:25:09 Half Marathon\nFun Fact: TBD",
+      "bio": "Favorite Distance: 10K\nFun Fact: TBD",
       "photo": "/assets/Emily Oster.jpg"
     },
     {
       "name": "Alice Paul",
-      "bio": "Favorite Distances: 5k, 10 miler\nPR: 3:05 Marathon\nFun Fact: Data nerd at heart",
+      "bio": "Favorite Distances: 5k, 10 miler\nFun Fact: Data nerd at heart",
       "photo": "/assets/Alice Paul.jpg"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "name": "Mallory Walker",
-      "bio": "Favorite Distances: 4x800, 5K\nPRs: 5:16 Mile, 17:48 5K\nFun Fact: Gummy candy connoisseur",
+      "bio": "Favorite Distances: 4x800, 5K\nFun Fact: Gummy candy connoisseur",
       "photo": "/assets/Mallory Walker 2.jpg"
     }
   ]
